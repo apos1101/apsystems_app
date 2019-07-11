@@ -2,7 +2,7 @@
 
 	let tmpl = document.createElement('template');
 	tmpl.innerHTML = `
-		  <link rel="stylesheet" type="text/css" href="https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/simpleTable/simpleTable.css"/>
+		  <link rel="stylesheet" type="text/css" href="https://github.com/apos1101/apsystems_app/blob/master/simpleTable/simpleTable.css"/>
 		  <div id="scrolltable">
 		  </div>
 	`;

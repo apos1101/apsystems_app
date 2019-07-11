@@ -7,12 +7,12 @@
     "license": "",
     "id": "com.sap.sample.simpleTable",
     "version": "1.0.1",
-    "icon": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/simpleTable/TABLE.png",
+    "icon": "https://github.com/apos1101/apsystems_app/blob/master/simpleTable/TABLE.png",
     "webcomponents": [
         {
             "kind": "main",
             "tag": "simple-table",
-            "url": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/simpleTable/webcomponent.js",
+            "url": "https://github.com/apos1101/apsystems_app/blob/master/simpleTable/webcomponent.js",
             "integrity": ""
         }
     ],
