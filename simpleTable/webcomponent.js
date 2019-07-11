@@ -2,7 +2,7 @@
 
 	let tmpl = document.createElement('template');
 	tmpl.innerHTML = `
-		  <link rel="stylesheet" type="text/css" href="https://github.com/apos1101/apsystems_app/blob/master/simpleTable/simpleTable.css"/>
+		  <link rel="stylesheet" type="text/css" href="https://apos1101.github.io/apsystems_app/simpleTable/simpleTable.css"/>
 		  <div id="scrolltable">
 		  </div>
 	`;

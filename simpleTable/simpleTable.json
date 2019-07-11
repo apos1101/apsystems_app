@@ -7,12 +7,12 @@
     "license": "",
     "id": "com.sap.sample.simpleTable",
     "version": "1.0.1",
-    "icon": "https://github.com/apos1101/apsystems_app/blob/master/simpleTable/TABLE.png",
+    "icon": "https://apos1101.github.io/apsystems_app/simpleTable/TABLE.png",
     "webcomponents": [
         {
             "kind": "main",
             "tag": "simple-table",
-            "url": "https://github.com/apos1101/apsystems_app/blob/master/simpleTable/webcomponent.js",
+            "url": "https://apos1101.github.io/apsystems_app/simpleTable/webcomponent.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
