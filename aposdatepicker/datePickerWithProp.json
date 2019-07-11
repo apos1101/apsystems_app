@@ -9,19 +9,19 @@
     "version": "1.0.0",
     "visible": true,
     "group": "",
-    "databound": false,
-    "icon": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/datepicker/calendarBlue.svg",
+	"databound": false,	
+    "icon": "https://github.com/apos1101/apsystems_app/aposdatepicker/calendarBlue.svg",
     "webcomponents": [
         {
             "kind": "main",
             "tag": "date-picker",
-            "url": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/datepicker/webcomponent.js",
+            "url": "https://github.com/apos1101/apsystems_app/aposdatepicker/webcomponent.js",
             "integrity": "sha256-/1FNTMz8jvubTAbnjU0dNvleQwxA2vRZH5H2+PBQoxY="
         },
         {
             "kind": "styling",
             "tag": "com-sap-sample-datepicker-aps",
-            "url": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/datepicker/aps_webcomponent.js",
+            "url": "https://github.com/apos1101/apsystems_app/aposdatepicker/aps_webcomponent.js",
             "integrity": "sha256-f4TRS4jKnuu/31SvaHX5+hKEciVzm5UtuRgHcIwD9Yk="
         }
     ],

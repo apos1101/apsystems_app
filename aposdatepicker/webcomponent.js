@@ -2,16 +2,16 @@
   
   let tmpl = document.createElement('template');
   tmpl.innerHTML = `
-    <link rel="stylesheet" type="text/css" href="https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/datepicker/datepicker.css"/>
-    <input type="text" class="datepicker" id="datepicker"/>
+    <link rel="stylesheet" type="text/css" href="https://github.com/apos1101/apsystems_app/aposdatepicker/datepicker.css"/>
+    <input type="text" class="datepicker" id="aposdatepicker"/>
   `;
 
-  class DatePicker extends HTMLElement {
+  class APOSDatePicker extends HTMLElement {
             constructor() {
               super();
               this._shadowRoot = this.attachShadow({mode: 'open'});
               this._shadowRoot.appendChild(tmpl.content.cloneNode(true));
-              this._shadowRoot.getElementById("datepicker").addEventListener("click", this.start.bind(this));
+              this._shadowRoot.getElementById("aposdatepicker").addEventListener("click", this.start.bind(this));
               this._dateVal = new Date();
               this._format = "dash"; 
               this.drawDate();
@@ -338,5 +338,5 @@
           }   
 
       }
-  customElements.define('date-picker', DatePicker);
+  customElements.define('apos-date-picker', APOSDatePicker);
   })();

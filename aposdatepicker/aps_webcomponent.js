@@ -3,7 +3,7 @@ let tmpl = document.createElement('template');
 tmpl.innerHTML = `
 		<form id="form">
 			<fieldset>
-				<legend>Date Picker Properties</legend>
+				<legend>APOS Date Picker Properties</legend>
 				<table>
 					<tr>
 						<!--<td>Date</td>
@@ -24,7 +24,7 @@ tmpl.innerHTML = `
 		</form>
 `;
 
-class DatePickerAps extends HTMLElement {
+class APOSDatePickerAps extends HTMLElement {
 		  constructor() {
 		    super();
 		    this._shadowRoot = this.attachShadow({mode: 'open'});
@@ -59,5 +59,5 @@ class DatePickerAps extends HTMLElement {
 		  }
 }
 
-customElements.define('com-sap-sample-datepicker-aps', DatePickerAps);
+customElements.define('com-apos-sample-aposdatepicker-aps', APOSDatePickerAps);
 })();
