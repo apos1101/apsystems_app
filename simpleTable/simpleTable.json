@@ -13,7 +13,8 @@
             "kind": "main",
             "tag": "simple-table",
             "url": "https://github.com/apos1101/apsystems_app/blob/master/simpleTable/webcomponent.js",
-            "integrity": ""
+            "integrity": "",
+            "ignoreIntegrity":"true"
         }
     ],
     "properties": {
