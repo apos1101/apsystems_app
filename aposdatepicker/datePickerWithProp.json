@@ -1,0 +1,70 @@
+{
+    "name": "APOS Date Picker With Props",
+    "description": "APOS Date Picker Custom Widget",
+	"newInstancePrefix": "APOS DatePicker",
+    "eula": "",
+    "vendor": "APOS Systems Inc.",
+    "license": "",
+    "id": "com.apos.sample.aposdatepicker",
+    "version": "1.0.0",
+    "visible": true,
+    "group": "",
+    "databound": false,
+    "icon": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/datepicker/calendarBlue.svg",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "date-picker",
+            "url": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/datepicker/webcomponent.js",
+            "integrity": "sha256-/1FNTMz8jvubTAbnjU0dNvleQwxA2vRZH5H2+PBQoxY="
+        },
+        {
+            "kind": "styling",
+            "tag": "com-sap-sample-datepicker-aps",
+            "url": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/datepicker/aps_webcomponent.js",
+            "integrity": "sha256-f4TRS4jKnuu/31SvaHX5+hKEciVzm5UtuRgHcIwD9Yk="
+        }
+    ],
+    "properties": {
+		"dateVal": {
+			"type": "+Date",
+            "description": "default date"
+
+		},
+		"format": {
+			"type": "string",
+			"description": "date format",
+			"default": "dash"
+		},
+		"width": {
+			"type": "int",
+			"default": 200
+		},
+		"height": {
+			"type": "int",
+			"default": 30
+		}
+	},
+	"methods": {
+		"getDateVal": {
+			"returnType": "+Date",
+			"description": "The date",
+			"parameters": [],
+			"body": "return this.dateVal;"
+		},
+		"setDateVal": {
+			"description": "The date",
+			"parameters": [
+				{
+                    "name": "dv",
+					"type": "+Date",
+					"description": "The new date"
+				}
+			],
+			"body": "this.dateVal = dv;"
+		}
+    },
+    "events":{
+    }
+
+}

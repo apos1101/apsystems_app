@@ -1,0 +1,124 @@
+/*@font-face {
+  font-family: 'fpa-icons';
+   src: url('FPA-icons/FPA-icons.eot?5kiojs');
+  src: url('FPA-icons/FPA-icons.eot?5kiojs#iefix') format('embedded-opentype'), 
+  src: url('FPA-icons/FPA-icons.woff?5kiojs') format('woff'),
+  url('FPA-icons/FPA-icons.ttf?5kiojs') format('truetype'),
+  url('FPA-icons/FPA-icons.svg?5kiojs#fpa-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class*=sapIcon-]:before{
+  display: block;
+  width: 15px;
+  height: 15px;
+  font-family: "fpa-icons";
+}
+
+.sapIcon-calendar:before {
+  content: '\e61a';
+}*/
+
+.contextmenu {
+  position: absolute;
+  line-height: 40px;
+  font: 12px;
+  font-family:"72-Web",Arial,Helvetica,sans-serif;
+  width: 300px;
+  display: none;
+  /*background:#346187;*/
+  background:#122041;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  color: white;
+}
+
+a.previous, a.next, .days a  {
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+}
+
+.years {
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  padding: 8px;
+}
+
+.yearPicker tr {
+  display: block;
+  padding-left: 65px;
+}
+
+.dayHeaders td{
+  font-weight: bold;
+  padding: 10px;
+}
+
+.selected {
+  font-weight: bold;
+  background: #b2b2b2;
+  color: #ffffff;
+  border-radius: 100px;
+}
+
+
+input.datepicker:focus + div.contextmenu, div.contextmenu:hover {
+  display: block;
+}
+
+.days:hover, a.previous:hover, a.next:hover, .year:hover{
+  cursor: pointer;
+  /*background: #b2b2b2;*/
+  background: #747171;
+  color: #ffffff;
+  border-radius: 100px;
+  width: 16px;
+}
+
+.years:hover{
+  cursor: pointer;
+  /*background: #b2b2b2;*/
+  background: #747171;
+  color: #ffffff;
+  border-radius: 100px;
+
+}
+
+.dateView{
+  padding-left: 30px;
+}
+
+
+td {
+  text-align: center;
+}
+
+div.yearMonth{
+  text-align: center;
+}
+
+input{
+  height: 30px;
+  width: 180px;
+  font-size: 16px;
+  font-family:"72-Web",Arial,Helvetica,sans-serif;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-color: transparent;
+
+}
+
+.datepicker
+{ 
+    background-image:url('https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/datepicker/calendar.svg');
+    background-size: 12%;
+    background-repeat:no-repeat;
+    background-position-x: 150px;
+    background-position-y: 3.5px;
+}
+
