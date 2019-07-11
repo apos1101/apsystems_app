@@ -10,18 +10,18 @@
     "visible": true,
     "group": "",
 	"databound": false,	
-    "icon": "https://github.com/apos1101/apsystems_app/aposdatepicker/calendarBlue.svg",
+    "icon": "https://github.com/apos1101/apsystems_app/blob/master/aposdatepicker/calendarBlue.svg",
     "webcomponents": [
         {
             "kind": "main",
             "tag": "date-picker",
-            "url": "https://github.com/apos1101/apsystems_app/aposdatepicker/webcomponent.js",
+            "url": "https://github.com/apos1101/apsystems_app/blob/master/aposdatepicker/webcomponent.js",
             "integrity": "sha256-/1FNTMz8jvubTAbnjU0dNvleQwxA2vRZH5H2+PBQoxY="
         },
         {
             "kind": "styling",
             "tag": "com-sap-sample-datepicker-aps",
-            "url": "https://github.com/apos1101/apsystems_app/aposdatepicker/aps_webcomponent.js",
+            "url": "https://github.com/apos1101/apsystems_app/blob/master/aposdatepicker/aps_webcomponent.js",
             "integrity": "sha256-f4TRS4jKnuu/31SvaHX5+hKEciVzm5UtuRgHcIwD9Yk="
         }
     ],
