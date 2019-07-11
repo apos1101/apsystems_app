@@ -2,7 +2,7 @@
   
   let tmpl = document.createElement('template');
   tmpl.innerHTML = `
-    <link rel="stylesheet" type="text/css" href="https://github.com/apos1101/apsystems_app/blob/master/aposdatepicker/datepicker.css"/>
+    <link rel="stylesheet" type="text/css" href="https://github.com/apos1101/apsystems_app/master/aposdatepicker/datepicker.css"/>
     <input type="text" class="datepicker" id="aposdatepicker"/>
   `;
 
