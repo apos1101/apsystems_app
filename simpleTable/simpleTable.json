@@ -1,0 +1,48 @@
+{
+    "name": "Simple Table",
+    "description": "Simple Table Custom Widget",
+	"newInstancePrefix": "SimpleTable",
+    "eula": "",
+    "vendor": "SAP",
+    "license": "",
+    "id": "com.sap.sample.simpleTable",
+    "version": "1.0.1",
+    "icon": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/simpleTable/TABLE.png",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "simple-table",
+            "url": "https://github.wdf.sap.corp/pages/d023588/orca_customWidget_samples/simpleTable/webcomponent.js",
+            "integrity": ""
+        }
+    ],
+    "properties": {
+		"width": {
+			"type": "int",
+			"default": 250
+		},
+		"height": {
+			"type": "int",
+			"default": 200
+		}
+	},
+	"methods": {
+		"setData": {
+			"description": "Set the data and columns (if needed)",
+			"parameters": [
+				{
+					"name": "data",
+					"type": "any"
+                },
+                {
+					"name": "colsArray",
+					"type": "string[]"
+                }
+			]
+        }
+    },
+    "events":{
+
+    }
+
+}

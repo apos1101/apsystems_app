@@ -1,0 +1,25 @@
+#scrolltable {resize: both; margin-top: 20px; height: 200px;width: 400px; overflow: auto; }
+#scrolltable table { border-collapse: collapse; }
+#scrolltable th div { position: absolute; margin-top: -20px; }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font: 14px;
+    font-family:"72-Web",Arial,Helvetica,sans-serif;
+}
+th, td {
+    padding: 8px;
+ }
+
+ table#simpleTable tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table#simpleTable tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table#simpleTable th {
+    color: white;
+    background-color: #346187;
+} 
