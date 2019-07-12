@@ -48,6 +48,27 @@
             
             // Create SQL Query Update Button
             let sqlQueryUpdateButton = document.createElement('button');
+
+            sqlQueryUpdateButton.addEventListener('click', event => {
+
+                console.log('This Update Button Click Event is working');
+
+                var url = 'http://localhost:8080/LiveDataGatewayTryout-0.0.1-SNAPSHOT/betatestweb/aposview/8120f9a8cf6e439998214e9212c55979';
+
+                var request = new Request(url, {
+                    method: 'GET',                     
+                    headers: new Headers()
+                });
+
+                fetch(request)
+                  .then(function(data) {
+                    // Here you get the data to modify as you please
+                    console.log(data);
+                  });
+                     // console.log(event);
+                          //var event = new Event('onClick');
+                          //this.dispatchEvent(event);
+                });
         
             // Create SQL Query Update Button Text
             var sqlQueryUpdateButtonText = document.createTextNode("Update"); 
