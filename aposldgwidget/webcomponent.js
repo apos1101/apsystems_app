@@ -53,11 +53,10 @@
 
                 console.log('This Update Button Click Event is working');
 
-                var url = 'http://localhost:8080/LiveDataGatewayTryout-0.0.1-SNAPSHOT/betatestweb/aposview/8120f9a8cf6e439998214e9212c55979';
+                var url = 'http://localhost:8080/LiveDataGatewayTryout-0.0.1-SNAPSHOT/betatestweb/aposview/' + aposViewIdInputText.value;
 
                 var request = new Request(url, {
-                    method: 'GET',                     
-                    headers: new Headers()
+                    method: 'GET'
                 });
 
                 fetch(request)
