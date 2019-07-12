@@ -3,6 +3,11 @@
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
       <style>
+        legend {
+            background-color: #87CEFA;
+            color: #fff;
+            padding: 3px 6px;
+        }
       </style>
     `;
 
