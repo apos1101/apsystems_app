@@ -1,0 +1,62 @@
+{
+	"eula": "",
+	"vendor": "SAP",
+	"license": "",
+	"id": "com.sap.awesomebox",
+	"version": "2.0.0",
+	"name": "Awesome Box v2",
+	"newInstancePrefix": "AwesomeBox",
+	"description": "Coloredbox that works with propertiesChanged Event",
+	"icon": "https://apos1101.github.io/apsystems_app/awesomebox/icon.png",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "sdk-awesomebox",
+			"url": "https://apos1101.github.io/apsystems_app/awesomebox_v2/ab-main-webcomponent.js"
+		},
+		{
+			"kind": "styling",
+			"tag": "sdk-awesomebox-aps",
+			"url": "https://apos1101.github.io/apsystems_app/awesomebox_v2/ab-styling-webcomponent.js"
+		}
+	],
+	"properties": {
+		"color": {
+			"type": "string",
+			"description": "The color of the background",
+			"default": "green"
+		},
+		"width": {
+			"type": "int",
+			"default": 100
+		},
+		"height": {
+			"type": "int",
+			"default": 100
+		}
+	},
+	"methods": {
+		"getColor": {
+			"returnType": "string",
+			"description": "Retrieve the background color",
+			"parameters": [],
+            "body": "return this.color;"
+		},
+		"setColor": {
+			"description": "Set the background color",
+			"parameters": [
+				{
+					"name": "newColor",
+					"type": "string",
+					"description": "The new color"
+				}
+            ],
+            "body": "this.color = newColor;"
+		}
+	},
+	"events": {
+	   "onClick": {
+			"description": "AwesomeBox was clicked"
+	   }
+	}
+}
