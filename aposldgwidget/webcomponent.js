@@ -44,7 +44,7 @@
             let sqlQueryTextArea = document.createElement('textarea');
             sqlQueryTextArea.setAttribute('rows','5');
             sqlQueryTextArea.setAttribute('cols','75');
-            sqlQueryTextArea.value = 'select * from table';
+            sqlQueryTextArea.value = '';
             
             // Create SQL Query Update Button
             let sqlQueryUpdateButton = document.createElement('button');
