@@ -51,24 +51,21 @@
 
             sqlQueryUpdateButton.addEventListener('click', event => {
 
-                console.log('This Update Button Click Event is working Post');
+                console.log('Full Request is working');
 
                 var url = 'http://localhost:8080/LiveDataGatewayTryout-0.0.1-SNAPSHOT/betatestweb/aposview/' + aposViewIdInputText.value;
 
                 var request = new Request(url, {
                     method: 'POST',
-                    body: 'select id as A, name as B, city as C from Table a', 
+                    body: sqlQueryTextArea.value, 
                     headers: new Headers()
                 });
 
                 fetch(request)
-                  .then(function(data) {
-                    // Here you get the data to modify as you please
+                  .then(function(data) {                    
+                    console.log('SQL Query updated successfully'); 
                     console.log(data);
-                  });
-                     // console.log(event);
-                          //var event = new Event('onClick');
-                          //this.dispatchEvent(event);
+                  });                     
                 });
         
             // Create SQL Query Update Button Text
