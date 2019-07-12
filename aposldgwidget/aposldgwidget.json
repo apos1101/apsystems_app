@@ -1,0 +1,58 @@
+ {
+	"name":"APOS LDG - Widget",
+	"description": "APOS LDG - Widget",
+	"eula": "",
+	"vendor": "APOS Systems Inc.,",
+	"license": "",
+	"id": "com.apos.sample.aposldgwidget",
+	"newInstancePrefix": "APOSLDG_Widget",
+	"version": "1.0.0",
+	"icon": "",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-sap-teched-gauge-solution",
+            "url": "https://sapteched2019ain369.github.io/AIN369_SOLUTION/webcomponent.js",
+			"properties": [
+				"angleMax"
+			],
+            "integrity": "",
+            "ignoreIntegrity" : true
+		},
+		{
+			"kind": "styling",
+			"tag": "com-sap-teched-gauge-solution-aps",
+            "url": "https://sapteched2019ain369.github.io/AIN369_SOLUTION/aps_webcomponent.js",
+			"properties": [
+			],
+			"integrity": "",
+            "ignoreIntegrity" : true
+		}
+    ],
+	"properties": {
+		"angleMax": {
+			"type": "number",
+			"description": "The resting angle of the gauge",
+			"default" : 0
+		}
+	},
+	"methods": {
+		"setAngle": {
+			"description": "Update the gauge angle",
+			"parameters": [
+				{
+					"name": "angleMax",
+					"type": "number",
+					"description": "The displayed angle of the gauge"
+				}
+			],
+            "body": "this.angleMax = angleMax;"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Gauge"
+		}
+
+	}
+}
