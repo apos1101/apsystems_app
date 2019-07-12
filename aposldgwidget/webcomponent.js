@@ -6,8 +6,6 @@
       </style>
     `;
 
-    d3Script.onload = () => 
-
     customElements.define('com-apos-ldg-widget', class APOSLDGWidget extends HTMLElement {
 
         constructor() {
